@@ -148,6 +148,7 @@ Clone the repo
 
 ```bash
 git clone https://github.com/YongXie66/Honor-of-Kings_RolePlay.git
+cd Honor-of-Kings_RolePlay
 ```
 
 install the environment
@@ -171,7 +172,8 @@ apt install git-lfs
 
 # LLM, funasr, gpt_sovits, sadtalker 相关模型下载
 git clone https://code.openxlab.org.cn/YongXie66/DaJi_RolePlay.git ./DaJi_RolePlay
-bash InternLM2/InternLM2_7b/download.sh
+bash ./DaJi_RolePlay/InternLM2/InternLM2_7b/download.sh
+bash ./DaJi_RolePlay/FunASR/download.sh
 
 # 模型位置移动
 mv ./DaJi_RolePlay/GPT_SoVITS/pretrained_models/* ./GPT_SoVITS/pretrained_models/
